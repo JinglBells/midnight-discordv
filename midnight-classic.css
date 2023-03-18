@@ -5,7 +5,7 @@
 	--header-primary: hsla(112, 51%, 80%, 1);
 	--header-secondary: hsla(112, 16%, 56%, 1);
 	--text-normal: var(--header-primary);
-	--text-muted: hsl(117, 15%, 56%);
+	--text-muted: hsl(117, 15%, 76%);
 	--text-link: hsla(149, 32%, 68%, 1);
 	--text-link-low-saturation: /* hsla(149, 32%, 68%, 1) */ var(--text-link);
 	--text-positive: hsl(117, 40.8%, 58.6%);
