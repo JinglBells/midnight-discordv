@@ -2,7 +2,7 @@
 .theme-dark {
 	--brand-experiment: hsl(220, 60%, 60%);
 
-	--header-primary: hsla(112, 51%, 70%, 1);
+	--header-primary: hsla(112, 51%, 80%, 1);
 	--header-secondary: hsla(112, 16%, 36%, 1);
 	--text-normal: var(--header-primary);
 	--text-muted: hsl(220, 15%, 20%);
@@ -16,7 +16,7 @@
 	--interactive-hover: var(--header-primary);
 	--interactive-active: var(--header-primary);
 	--interactive-muted: var(--text-muted);
-	--background-primary: hsla(117, 18%, 28%, 1);
+	--background-primary: hsla(187, 18%, 28%, 1);
 	--background-secondary: hsla(117, 15%, 25%, 1);
 	--background-secondary-alt: hsla(117, 15%, 26%, 1);
 	--background-tertiary: hsla(117, 12%, 18%, 1);
