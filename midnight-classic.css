@@ -16,7 +16,7 @@
 	--interactive-hover: var(--header-primary);
 	--interactive-active: var(--header-primary);
 	--interactive-muted: var(--text-muted);
-	--background-primary: hsla(117, 18%, 47%, 1);
+	--background-primary: hsla(117, 18%, 37%, 1);
 	--background-secondary: hsla(117, 15%, 35%, 1);
 	--background-secondary-alt: hsla(117, 15%, 38%, 1);
 	--background-tertiary: hsla(117, 12%, 28%, 1);
