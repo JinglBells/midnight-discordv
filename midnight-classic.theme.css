@@ -1,13 +1,13 @@
 /* change colors */
 .theme-dark {
-	--brand-experiment: hsl(338, 60%, 60%);
+	--brand-experiment: hsl(338, 50%, 70%);
 
 	--header-primary: hsla(0, 51%, 80%, 1);
-	--header-secondary: hsla(338, 43%, 68%, 1);
+	--header-secondary: hsla(0, 16%, 56%, 1);
 	--text-normal: var(--header-primary);
 	--text-muted: hsl(0, 35%, 76%);
-	--text-link: hsla(338, 32%, 68%, 1);
-	--text-link-low-saturation: /* hsla(338, 32%, 68%, 1) */ var(--text-link);
+	--text-link: hsla(0, 32%, 68%, 1);
+	--text-link-low-saturation: /* hsla(0, 32%, 68%, 1) */ var(--text-link);
 	--text-positive: hsl(117, 40.8%, 58.6%);
 	--text-warning: hsl(39, 59.7%, 54.1%);
 	--text-danger: hsl(359, 59.6%, 59.4%);
@@ -16,12 +16,12 @@
 	--interactive-hover: var(--header-primary);
 	--interactive-active: var(--header-primary);
 	--interactive-muted: var(--text-muted);
-	--background-primary: hsla(338, 18%, 68%, 1);
-	--background-secondary: hsla(338, 12%, 66%, 1);
-	--background-secondary-alt: hsla(338, 12%, 69%, 1);
-	--background-tertiary: hsla(338, 12%, 68%, 1);
-	--background-accent: hsla(338, 15%, 67%, 1);
-	--background-floating: hsla(338, 15%, 63%, 1);
+	--background-primary: hsla(0, 12%, 38%, 1);
+	--background-secondary: hsla(0, 12%, 36%, 1);
+	--background-secondary-alt: hsla(0, 12%, 39%, 1);
+	--background-tertiary: hsla(0, 12%, 38%, 1);
+	--background-accent: hsla(0, 15%, 37%, 1);
+	--background-floating: hsla(0, 15%, 33%, 1);
 	--background-mobile-primary: var(--background-primary);
 	--background-mobile-secondary: var(--background-secondary);
 	--background-modifier-hover: hsla(220, 15%, 20%, 0.1);
@@ -32,7 +32,7 @@
 	--info-warning-text: hsl(0, 0%, 100%);
 	--info-danger-text: hsl(0, 0%, 100%);
 	--info-help-background: hsla(0, 100%, 47.8%, 0.1);
-	--info-help-foreground: hsl(2, 59%, 47.8%);
+	--info-help-foreground: hsl(0, 59%, 47.8%);
 	--info-help-text: hsl(0, 0%, 100%);
 	--status-warning-text: hsl(0, 5%, 19%);
 	--scrollbar-thin-thumb: hsl(0, 15%, 23%);
