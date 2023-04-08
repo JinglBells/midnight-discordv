@@ -1,6 +1,6 @@
 /* change colors */
 .theme-dark {
-	--brand-experiment: hsl(220, 60%, 60%);
+	--brand-experiment: hsl(338, 60%, 60%);
 
 	--header-primary: hsla(0, 51%, 80%, 1);
 	--header-secondary: hsla(338, 43%, 68%, 1);
