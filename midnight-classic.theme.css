@@ -2,8 +2,8 @@
 .theme-dark {
 	--brand-experiment: hsl(338, 50%, 70%);
 
-	--header-primary: hsla(0, 51%, 80%, 1);
-	--header-secondary: hsla(50, 16%, 56%, 1);
+	--header-primary: hsla(50, 51%, 80%, 1);
+	--header-secondary: hsla(0, 26%, 56%, 1);
 	--text-normal: var(--header-primary);
 	--text-muted: hsl(0, 35%, 76%);
 	--text-link: hsla(0, 32%, 68%, 1);
