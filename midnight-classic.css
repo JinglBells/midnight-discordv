@@ -19,9 +19,9 @@
        --background-primary: hsla(279, 12%, 18%, 1);
        --background-secondary: hsla(279, 12%, 16%, 1);
        --background-secondary-alt: hsla(279, 12%, 29%, 1);
-       --background-tertiary: hsla(279, 12%, 38%, 1);
-       --background-accent: hsla(279, 15%, 37%, 1);
-       --background-floating: hsla(279, 15%, 33%, 1);
+       --background-tertiary: hsla(279, 12%, 18%, 1);
+       --background-accent: hsla(279, 15%, 17%, 1);
+       --background-floating: hsla(279, 15%, 13%, 1);
        --background-mobile-primary: var(--background-primary);
        --background-mobile-secondary: var(--background-secondary);
        --background-modifier-hover: hsla(220, 15%, 20%, 0.1);
