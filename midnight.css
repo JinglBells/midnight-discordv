@@ -28,6 +28,7 @@
 	/* background of muted colored buttons on click */
 	--muted-background-active: hsl(220, 15%, 16%);
 	/* background of pretty much everything not using primary background */
+	/* lighter variant is used for the side of embeds and borders */
 	--secondary-background: hsl(220, 15%, 13%);
 	/* main chat/channel list/member list background */
 	--primary-background: hsl(220, 15%, 10%);
@@ -43,7 +44,8 @@
 
 :root.theme-dark,
 .theme-dark,
-.default-colors {
+.default-colors,
+.theme-light {
 	--primary-130: var(--header-text);
 	--primary-230: var(--primary-text);
 	--primary-330: var(--secondary-text);
@@ -80,15 +82,13 @@
 	--mention-background: var(--mention-modifier);
 	--button-secondary-background-hover: var(--muted-background-hover);
 	--button-secondary-background-active: var(--muted-background-active);
+	--modal-footer-background: var(--primary-background);
 
 	--search-popout-option-fade: none;
 	--search-popout-option-fade-hover: none;
 }
 
 /* fix colors */
-.wrapper-22rqw6 /* emoji selector server list */ {
-	background-color: var(--primary-background);
-}
 .mentioned-Tre-dv:before /* mention message left edge */,
 .container-1QtPKm.default-colors:checked /* settings checkbuttons */ {
 	background-color: var(--accent-background) !important;
@@ -106,8 +106,56 @@
 .iconBadge-3Mmg92 /* dm button */ {
 	background-color: var(--accent-color) !important;
 }
-.searchHeader-1r_ZSh /* search results number box */ {
+.mainCard-3KBsBI /* forum search bar and posts */,
+.container-3i3IzO /* threads */,
+.embedFull-1HGV2S, /* regular embeds like GitHub links */
+.scrollbarGhostHairline-2LpzZ9.scrollbar-3vVt8d.codeView-12LUIl, /* file embeds - txts, etc */
+.attachment-1PZZB2, /* file embeds - txts, etc */
+.footer-GXWBBp,  /* file embed footers - txts, etc */
+.textContainer-36wgKK, /* file embeds - txts, etc */
+.hoverButtonGroup-2yZIzC, /* download button on embeds */
+.embedCard-bDyD5S, /* embed card */
+.markup-eYLPri code, /* codeblocks */
+.vc-plugins-card, /* vencord plugins card */
+.prompt-1sE27N, /* channels and roles role section background */
+.channelRow-4X_3fi, /* channels and roles channel background */
+.profileCard-2gVmvm, /* channels and roles profile card */
+.reaction-3vwAF2 /* reactions */ {
+	background-color: var(--secondary-background) !important;
+}
+.theme-dark .container-2IKOsH, /* channels and roles container */
+.theme-dark .header-3xB4vB, /* channels and roles header */
+.searchHeader-1r_ZSh, /* search results number box */ 
+.wrapper-22rqw6, /* emoji selector server list */
+.optionButtonWrapper-2lbogO.selected-KQBgNS {
+	/* selected role */
 	background-color: var(--primary-background);
+}
+
+/* fix create a server modal which is LIGHT THEME FOR SOME REASON */
+.root-1CAIjD {
+	background-color: var(--primary-background);
+}
+.defaultColor-1GKx81 {
+	color: var(--header-text);
+}
+.container-x8Y1ix {
+	background-color: var(--primary-background);
+}
+.defaultColor-1EVLSt,
+.closeButton-2ygCkj:hover {
+	color: var(--primary-text);
+}
+.header-1c1AhF .subtitle-3m-md1 {
+	color: var(--secondary-text) !important;
+}
+.closeButton-2ygCkj {
+	color: var(--secondary-text);
+}
+
+/* make emoji selector same color */
+.emojiButtonNormal-35P0_i .sprite-2lxwfc {
+	filter: grayscale(100%) brightness(40%) sepia(0.9) hue-rotate(180deg) !important;
 }
 
 /* remove big chat background and add back smaller */
@@ -145,7 +193,10 @@
 .container-2cd8Mz /* homepage */,
 .content-1SgpWY .sidebar-1tnWFu /* server list back */,
 .callContainer-HtHELf /* vc */,
-.container-3XgAHv /* vc chat */ {
+.container-3XgAHv /* vc chat */,
+.chat-2ZfjoI /* channels and roles */,
+.pageWrapper-2PwDoS /* discover page */,
+.root-1CAIjD:has(.container-1Lk8p7) /* create a server */ {
 	border-radius: var(--roundness) !important;
 	overflow: hidden;
 }
@@ -174,7 +225,7 @@
 	padding: 0px 2px;
 }
 .searchResultsWrap-5RVOkx {
-	width: 466px;
+	width: 476px;
 }
 .iconWrapper-2awDjA[aria-label='Hide User Profile'] {
 	margin-left: 34px;
@@ -189,7 +240,8 @@
 }
 .container-2cd8Mz /* friend list*/,
 .chat-2ZfjoI /* main chat */,
-.applicationStore-2nk7Lo /* nitro page */ {
+.applicationStore-2nk7Lo /* nitro page */,
+.pageWrapper-2PwDoS /* discover page */ {
 	margin-left: 10px;
 }
 .content-1jQy2l /* between chat and member list */ {
@@ -197,6 +249,10 @@
 }
 .resizeHandle-PBRzPC /* pretend to be a margin */ {
 	width: 10px;
+}
+.wrapper-1gVUIN.fullScreen-KhZZcz .callContainer-HtHELf /* fullscreen voice channel */,
+.wrapper-1gVUIN.fullScreen-KhZZcz .channelChatWrapper-35N3nR {
+	margin-top: 10px;
 }
 
 /* remove shadows */
@@ -216,9 +272,15 @@
 }
 
 /* remove borders */
+.markup-eYLPri code.inline /* inline codeblocks */,
 .itemCard-3Etziu /* active now card */,
 .container-1zzFcN /* vc panel bottom */ {
-	border: none;
+	border: none !important;
+}
+.footerSeparator-3U8YsT, /* modal footer */
+.rootWithShadow-2hdL2J /* create a server */ {
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
 }
 
 /* only show scrollbar when hover */
@@ -229,6 +291,11 @@
 .scrollerBase-_bVAAt::-webkit-scrollbar-thumb,
 .scrollerBase-_bVAAt::-webkit-scrollbar-track {
 	visibility: hidden;
+}
+
+/* filter login image */
+.artwork-L5TAwQ {
+	filter: saturate(0.2) hue-rotate(-20deg) brightness(0.15);
 }
 
 /* top corner title */
