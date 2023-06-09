@@ -34,7 +34,7 @@
        --info-help-background: hsla(279, 100%, 47.8%, 0.1);
        --info-help-foreground: hsl(0, 59%, 47.8%);
        --info-help-text: hsl(0, 0%, 100%);
-       --status-warning-text: hsl(279, 8%, 19%);
+       --status-warning-text: hsl(279, %, 19%);
        --scrollbar-thin-thumb: hsl(279, 15%, 23%);
        --scrollbar-thin-track: transparent;
        --scrollbar-auto-thumb: hsl(279, 15%, 19%);
@@ -176,6 +176,16 @@
        border-radius: 0 !important;
 }
 
+/* improve notice */
+.notice-2HEN-u {
+       border-radius: var(--roundness);
+       margin-bottom: 10px;
+       box-shadow: none !important;
+}
+.button-1iHNQ2 { /* make notice button rounded */
+       border-radius: var(--roundness);
+}
+
 /* hide scrollbars */
 .scroller-2LSbBU::-webkit-scrollbar-thumb {
        visibility: hidden;
@@ -209,15 +219,15 @@
 }
 
 .withFrame-haYltI .winButtonClose-1HsbF-::after {
-       background-color: hsl(338, 45%, 50%) !important;
+       background-color: hsl(0, 50%, 50%) !important;
 }
 
 .withFrame-haYltI .winButtonMinMax-PBQ2gm:nth-child(3)::after {
-       background-color: hsl(120, 35%, 50%) !important;
+       background-color: hsl(120, 50%, 50%) !important;
 }
 
 .withFrame-haYltI .winButtonMinMax-PBQ2gm:nth-child(4)::after {
-       background-color: hsl(48, 45%, 50%) !important;
+       background-color: hsl(50, 50%, 50%) !important;
 }
 
 .typeWindows-1za-n7 > div:hover::after {
