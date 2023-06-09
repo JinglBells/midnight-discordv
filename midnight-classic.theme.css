@@ -41,20 +41,20 @@
        --scrollbar-auto-track: transparent;
        --scrollbar-auto-scrollbar-color-thumb: hsl(0, 15%, 19%);
        --scrollbar-auto-scrollbar-color-track: transparent;
-       --elevation-stroke: 0 0 0 1px hsla(240, 11%, 2%, 0.15);
+       --elevation-stroke: 0 0 0 1px hsla(279, 50%, 50%, 0.15);
        --elevation-low: none;
-       --elevation-medium: 0 4px 4px hsla(0, 0%, 0%, 0.16);
-       --elevation-high: 0 8px 10px hsla(0, 0%, 0%, 0.24);
+       --elevation-medium: 0 4px 4px hsla(279, 50%, 50%, 0.16);
+       --elevation-high: 0 8px 10px hsla(279, 50%, 50%, 0.24);
        --logo-primary: hsl(0, 0%, 100%);
-       --control-brand-foreground: hsl(9, 86.1%, 77.5%);
-       --control-brand-foreground-new: hsl(9, 86.1%, 77.5%);
-       --background-mentioned: /* hsla(20, 95.7%, 54.1%, 0.1)*/ hsla(
+       --control-brand-foreground: hsl(279, 86.1%, 77.5%);
+       --control-brand-foreground-new: hsl(279, 86.1%, 77.5%);
+       --background-mentioned: /* hsla(279, 95.7%, 54.1%, 0.1)*/ hsla(
               220,
               60%,
               60%,
               0.1
        );
-       --background-mentioned-hover: /*hsla(9, 95.7%, 54.1%, 0.08)*/ hsla(
+       --background-mentioned-hover: /*hsla(279, 95.7%, 54.1%, 0.08)*/ hsla(
               220,
               60%,
               60%,
