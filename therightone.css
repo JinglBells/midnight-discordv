@@ -88,7 +88,7 @@
 }
 
 /* modify colors */
-.body .message-text .markup {font-size:120%;}
+.body .message-text .markup {font-size:10%;}
 #app-mount .container__2637a /* channel list */,
 .privateChannels__35e86 /* dms list */,
 #app-mount .container__37e49 /* user panel inner */,
