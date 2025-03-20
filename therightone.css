@@ -717,7 +717,7 @@ button.fullRegionButton_f1ceac /* fix vc button again */ {
     height: 16px;
     line-height: 16px;
     font-family: var(--font);
-    font-size: 13px;
+    font-size: 20px;
     font-weight: 900;
     color: var(--text-5);
     transform: scaleX(1.2);
