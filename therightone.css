@@ -6,7 +6,7 @@
     --font: 'figtree';
 
     /* top left corner text */
-    --corner-text: 'Midnight';
+    --corner-text: 'Jingledrawss | Vee';
 
     /* thickness of messages divider */
     --divider-thickness: 3px;
@@ -88,7 +88,6 @@
 }
 
 /* modify colors */
-.body .message-text .markup {font-size:10%;}
 #app-mount .container__2637a /* channel list */,
 .privateChannels__35e86 /* dms list */,
 #app-mount .container__37e49 /* user panel inner */,
@@ -718,7 +717,7 @@ button.fullRegionButton_f1ceac /* fix vc button again */ {
     height: 16px;
     line-height: 16px;
     font-family: var(--font);
-    font-size: 20px;
+    font-size: 13px;
     font-weight: 900;
     color: var(--text-5);
     transform: scaleX(1.2);
@@ -881,6 +880,10 @@ button.button__67645 /* make user panel buttons round */ {
 .bottom__7aaec > .containerPadding__7aaec:hover {
     margin-bottom: -12px;
 }
+.body {
+	font-size: 20px;
+}
+
 
 /* Decor Compat */
 .vc-decor-sectioned-grid-list-container {
