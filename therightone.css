@@ -774,12 +774,7 @@ button.fullRegionButton_f1ceac /* fix vc button again */ {
     background-color: var(--idle-indicator) !important;
 }
 
-/* custom dm button background instead of icon */
- .childWrapper__6e9f8:has(> svg:not(.favoriteIcon_c9fddf)) {
-	background: url('https://www.svgrepo.com/show/300554/torii.svg');
-	background-color: transparent !important;
-	background-size: cover;
-} 
+
 
 /* vencord spotify player support */
 #vc-spotify-player {
